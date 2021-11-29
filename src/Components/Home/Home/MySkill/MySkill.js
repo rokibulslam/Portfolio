@@ -10,16 +10,16 @@ const MySkill = () => {
           <div className="row justify-content-evenly">
             <div class="skill-container col-md-6">
               <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-                <li class="js">JS</li>
+                <li className="html">HTML</li>
+                <li className="css">CSS</li>
+                <li className="js">JS</li>
               </ul>
             </div>
             <div class="skill-container col-md-6">
               <ul>
-                <li class="html">HTML</li>
-                <li class="css">CSS</li>
-                <li class="js">JS</li>
+                <li className="html">HTML</li>
+                <li className="css">CSS</li>
+                <li className="js">JS</li>
               </ul>
             </div>
           </div>

@@ -1,0 +1,26 @@
+.card-text{
+    background-color: rgb(252, 250, 250);
+    color: rgb(3, 3, 3);
+}
+.card-button{
+    background-color: rgb(255, 99, 71);
+    color: white;
+    margin-left: 10px;
+    border: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.project-bg {
+    /* background-image: url("../../../../images/skill7.jpg"),
+        linear-gradient(rgba(19, 18, 18, 0.281), rgb(12, 12, 12)); */
+        background-color: wheat;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}

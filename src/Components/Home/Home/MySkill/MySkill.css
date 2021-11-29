@@ -1,6 +1,7 @@
         .skills-banner {
-    background-image: url("../../../../images/skill2.jpg"),
-        linear-gradient(rgba(126, 122, 122, 0.281), rgb(255, 255, 255));
+    /* background-image: url("../../../../images/skill8.jpg"),
+        linear-gradient(rgba(10, 10, 10, 0.281), rgb(20, 20, 20)); */
+        background-color: white;
     height: 100%;
     width: 100%;
     /* border: 1px solid red; */
