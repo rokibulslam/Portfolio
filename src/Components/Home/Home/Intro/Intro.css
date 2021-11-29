@@ -1,0 +1,40 @@
+.intro-banner {
+    background-image: url("../../../../images/intro-banner.jpg"),
+        linear-gradient(rgba(126, 122, 122, 0.281), rgba(0, 0, 0, 0.377));
+    height: 780px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.profile-pic{
+    /* height: 400px; */
+    border-radius: 300px;
+}
+.intro-button{
+    background-color: rgba(233, 221, 221, 0.322);
+    color: white;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+}
+.intro-button:hover{
+    background-color: red;
+}
+.intro-icon{
+    background-color: rgba(250, 247, 247, 0.253);
+   cursor: pointer;
+    color: white;
+    border: 1px solid wheat;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 7px;
+    
+}
+.intro-icon:hover{
+    background-color: rgb(248, 1, 1);
+}
