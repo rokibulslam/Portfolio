@@ -4,7 +4,8 @@ import './MySkill.css'
 
 const MySkill = () => {
     return (
-      <div className="mt-5">
+      <div className="skills-banner py-5">
+        <h1 className="text-center">MY SKILLS</h1>
         <div className="container ">
           <div className="row justify-content-evenly">
             <div class="skill-container col-md-6">

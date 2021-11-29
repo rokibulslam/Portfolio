@@ -1,9 +1,21 @@
- 
+        .skills-banner {
+    background-image: url("../../../../images/skill2.jpg"),
+        linear-gradient(rgba(126, 122, 122, 0.281), rgb(255, 255, 255));
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
 
+        
         .skill-container{
-            background-color: gray;
-            /* width: 500px;
-            padding: 20px; */
+            background-color: rgba(255, 255, 255, 0.288);
+            /* width: 500px; */
+            padding: 20px; 
             box-sizing: border-box;
         }
 
