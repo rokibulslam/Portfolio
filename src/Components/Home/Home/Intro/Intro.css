@@ -1,13 +1,14 @@
 .intro-banner {
     background-image: url("../../../../images/intro-banner.jpg"),
         linear-gradient(rgba(126, 122, 122, 0.281), rgba(0, 0, 0, 0.377));
-    height: 780px;
+    height: 100%;
     width: 100%;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
 }
 .profile-pic{
     /* height: 400px; */
