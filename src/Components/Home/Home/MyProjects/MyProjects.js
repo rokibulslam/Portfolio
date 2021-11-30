@@ -8,9 +8,9 @@ import './MyProject.css'
 
 const MyProjects = () => {
     return (
-      <div className="p-5 text-center project-bg">
-        <h1 className="text-center mb-5">MY Projects</h1>
-        <Row xs={1} md={2} className="g-5">
+      <div className="px-5 pb-5 text-center project-bg">
+        <h1 className="py-5 text-center ">MY Projects</h1>
+        <Row xs={1} md={4} className="g-5 pb-5">
           <Col>
             <Card>
               <Card.Img className="img-hover" variant="top" src={CarHouse} />

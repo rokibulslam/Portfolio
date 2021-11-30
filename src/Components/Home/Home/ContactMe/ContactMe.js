@@ -28,7 +28,7 @@ export const ContactMe = () => {
   };
 
   return (
-    <div className="contact-bg text-white">
+    <div className="contact-bg">
       <h1 className="text-center py-5 ">Contact With Me</h1>
       <div className="p-5  d-flex align-items-center justify-content-center m-0">
         <div className="">
@@ -37,7 +37,6 @@ export const ContactMe = () => {
               <Form.Label>Your Name</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Name"
                 name="name"
                 required
               />
