@@ -8,7 +8,7 @@ import './MyProject.css'
 
 const MyProjects = () => {
     return (
-      <div className="px-5 pb-5 text-center project-bg">
+      <div id="projects" className="px-5 pb-5 text-center project-bg">
         <h1 className="py-5 text-center ">MY Projects</h1>
         <Row xs={1} md={4} className="g-5 pb-5">
           <Col>
