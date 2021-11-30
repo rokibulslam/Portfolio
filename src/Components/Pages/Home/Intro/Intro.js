@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Intro.css";
 import profilePic from "../../../../images/eidited.png";
 import Button from "@restart/ui/esm/Button";
@@ -7,12 +7,13 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-bootstrap";
 import { Navigate } from "react-router";
 
+
 const Intro = () => {
   return (
     <div className="intro-banner py-5 text-center d-flex justify-content-center align-items-center flex-column">
       <div className="container">
         <div className="d-flex justify-content-center align-items-center flex-column">
-          <div>
+          <div data-aos="fade-up">
             <h1 className="">Hi! I AM </h1>
             <h1 className="text-white">MD ROKIBUL ISLAM</h1>
             <h4 className="">FRONTEND WEB DEVELOPER</h4>
@@ -23,7 +24,6 @@ const Intro = () => {
               >
                 <Button className="intro-button">Download Resume</Button>
               </a>
-              
 
               {/* <NavLink to="aboutMe">
                 <Button className="intro-button">Hire Me</Button>
