@@ -12,14 +12,10 @@ const Intro = () => {
         <div className="row align-items-center">
           <div className="col-md-6 pb-5">
             <div>
-              <h1 className="text-white">I AM MD ROKIBUL ISLAM</h1>
-              <h3 className="text-warning">FRONTEND WEB DEVELOPER</h3>
-              <p className="text-white">
-                I am Rokibul Islam, from planet with a passion of Web, Graphic
-                and Interactive design. <br /> I specialise in standards
-                compliant websites with a focus on usability. <br />{" "}
-                Enthusiastic about life, design and innovation.
-              </p>
+              <h1 className="">Hi! I AM </h1>
+              <h1 className="text-white">MD ROKIBUL ISLAM</h1>
+              <h4 className="">FRONTEND WEB DEVELOPER</h4>
+              
               <div className="d-flex align-items-center justify-content-center">
                 <FontAwesomeIcon
                   className="intro-icon"

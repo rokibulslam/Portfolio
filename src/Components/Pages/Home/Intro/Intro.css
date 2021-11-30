@@ -1,6 +1,7 @@
 .intro-banner {
-    background-image: url("../../../../images/intro-banner.jpg"),
-        linear-gradient(rgba(126, 122, 122, 0.281), rgba(0, 0, 0, 0.377));
+    /* background-image: url("../../../../images/intro-banner.jpg"),
+        linear-gradient(rgba(126, 122, 122, 0.281), rgba(0, 0, 0, 0.377)); */
+        background-color: #003B38;
     height: 100%;
     width: 100%;
     /* border: 1px solid red; */
@@ -8,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: rgb(10, 245, 151);
    
 }
 .profile-pic{
@@ -15,18 +17,19 @@
     border-radius: 300px;
 }
 .intro-button{
-    background-color: rgba(233, 221, 221, 0.322);
-    color: white;
+    background-color: rgb(10, 245, 151);
+    color: rgb(0, 59, 56);
     margin-left: 15px;
     margin-top: 30px;
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
 }
 .intro-button:hover{
-    background-color: red;
+    background-color: rgb(0, 235, 137);
+    color: #003B38;
 }
 .intro-icon{
-    background-color: rgba(250, 247, 247, 0.253);
+    background-color: rgba(250, 247, 247, 0.075);
    cursor: pointer;
     color: white;
     border: 1px solid wheat;
@@ -37,5 +40,5 @@
     
 }
 .intro-icon:hover{
-    background-color: rgb(248, 1, 1);
+    background-color: rgb(0, 235, 137);
 }

@@ -13,20 +13,38 @@ const Navigation = () => {
           variant="dark"
         >
           <Container>
-            <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+            <Navbar.Brand className="nav-text-color" href="#home">
+              Portfolio
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <NavLink to="/home" className=" text-white text-decoration-none me-3" href="#features">
+                <NavLink
+                  to="/home"
+                  className="  text-decoration-none me-3 nav-text-color"
+                  href="#features"
+                >
                   Home
                 </NavLink>
-                <NavLink to="/blog" className="text-white text-decoration-none me-3" href="#features">
+                <NavLink
+                  to="/blog"
+                  className="text-decoration-none me-3 nav-text-color"
+                  href="#features"
+                >
                   Blog
                 </NavLink>
-                <NavLink to="#projects" className="text-white text-decoration-none me-3" href="#projects">
+                <NavLink
+                  to="#projects"
+                  className="text-decoration-none me-3 nav-text-color"
+                  href="#projects"
+                >
                   Projects
                 </NavLink>
-                <NavLink to="aboutMe" className="text-white text-decoration-none me-3" href="#pricing">
+                <NavLink
+                  to="aboutMe"
+                  className="nav-text-color text-decoration-none me-3"
+                  href="#pricing"
+                >
                   About Me
                 </NavLink>
               </Nav>
