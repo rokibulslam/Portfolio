@@ -10,15 +10,13 @@
     background-size: cover;
     background-position: center;
     color: rgb(10, 245, 151);
+    height: 100vh;
    
 }
-.profile-pic{
-    /* height: 400px; */
-    border-radius: 300px;
-}
+
 .intro-button{
-    background-color: rgb(10, 245, 151);
-    color: rgb(0, 59, 56);
+    background-color: rgba(250, 247, 247, 0.336);
+    color: white;
     margin-left: 15px;
     margin-top: 30px;
     padding: 10px 30px 10px 30px;
@@ -29,7 +27,7 @@
     color: #003B38;
 }
 .intro-icon{
-    background-color: rgba(250, 247, 247, 0.075);
+    background-color: rgba(250, 247, 247, 0.336);
    cursor: pointer;
     color: white;
     border: 1px solid wheat;
@@ -41,4 +39,5 @@
 }
 .intro-icon:hover{
     background-color: rgb(0, 235, 137);
+    color: #003B38;
 }

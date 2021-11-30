@@ -1,0 +1,10 @@
+.about-me{
+    background-color: rgb(1, 48, 48);
+    color: rgb(10, 245, 151);
+    padding-top: 100px;
+    height: 100vh;
+}
+.profile-pic{
+    /* height: 400px; */
+    border-radius: 60%;
+}

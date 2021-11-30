@@ -18,7 +18,7 @@ function App() {
         <Route path="home/projectDetails/:useId" element={<ProjectDetails></ProjectDetails>}></Route>
         <Route path="/aboutMe" element={<AboutMe></AboutMe>}></Route>
       </Routes>
-      <Footer></Footer>
+      
     </Router>
   );
 }
