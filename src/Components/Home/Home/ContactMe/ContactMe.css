@@ -1,0 +1,11 @@
+.contact-btn{
+    background-color: rgb(255, 99, 71);
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    padding: .5rem 3rem .5rem 3rem;
+    border-radius: 10px;
+}
+.contact-bg{
+    background-color: #027575;
+}

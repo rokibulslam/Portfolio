@@ -8,11 +8,11 @@ import './MyProject.css'
 
 const MyProjects = () => {
     return (
-      <div className="p-5 project-bg ">
+      <div className="p-5 text-center project-bg">
         <h1 className="text-center mb-5">MY Projects</h1>
         <Row xs={1} md={2} className="g-5">
           <Col>
-            <Card >
+            <Card>
               <Card.Img className="img-hover" variant="top" src={CarHouse} />
               <Card.Body className="card-text">
                 <Card.Title>CAR HOUSE</Card.Title>
@@ -32,7 +32,7 @@ const MyProjects = () => {
                   </Accordion.Item>
                 </Accordion>
               </Card.Body>
-              <div className="d-flex pb-3">
+              <div className="d-flex pb-3 card-text">
                 <button className="card-button">Live Preview</button>
                 <button className="card-button">Client Code</button>
                 <button className="card-button">Server Code</button>
@@ -60,7 +60,7 @@ const MyProjects = () => {
                   </Accordion.Item>
                 </Accordion>
               </Card.Body>
-              <div className="d-flex pb-3">
+              <div className="d-flex pb-3 card-text">
                 <button className="card-button">Live Preview</button>
                 <button className="card-button">Client Code</button>
                 <button className="card-button">Server Code</button>
@@ -88,7 +88,7 @@ const MyProjects = () => {
                   </Accordion.Item>
                 </Accordion>
               </Card.Body>
-              <div className="d-flex pb-3">
+              <div className="d-flex pb-3 card-text">
                 <button className="card-button">Live Preview</button>
                 <button className="card-button">Client Code</button>
                 <button className="card-button">Server Code</button>
@@ -97,7 +97,11 @@ const MyProjects = () => {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={OnlineCampus} />
+              <Card.Img
+                className="img-fluid"
+                variant="top"
+                src={OnlineCampus}
+              />
               <Card.Body className="card-text">
                 <Card.Title>ONLINE CAMPUS</Card.Title>
                 <Accordion defaultActiveKey="0">
@@ -116,7 +120,7 @@ const MyProjects = () => {
                   </Accordion.Item>
                 </Accordion>
               </Card.Body>
-              <div className="d-flex pb-3">
+              <div className="d-flex pb-3 card-text">
                 <button className="card-button">Live Preview</button>
                 <button className="card-button">Client Code</button>
                 <button className="card-button">Server Code</button>

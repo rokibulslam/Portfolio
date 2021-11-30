@@ -1,9 +1,10 @@
         .skills-banner {
     /* background-image: url("../../../../images/skill8.jpg"),
-        linear-gradient(rgba(10, 10, 10, 0.281), rgb(20, 20, 20)); */
-        background-color: white;
+        linear-gradient(rgba(88, 86, 86, 0.904), rgba(209, 28, 28, 0)); */
     height: 100%;
     width: 100%;
+    background-color: #027575;
+    color: white;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -14,7 +15,7 @@
 
         
         .skill-container{
-            background-color: rgba(255, 255, 255, 0.288);
+            background-color: rgba(255, 255, 255, 0);
             /* width: 500px; */
             padding: 20px; 
             box-sizing: border-box;
@@ -36,7 +37,7 @@
             left: 0;
 
 
-            background-color: rgb(170,167,173);
+            background-color: rgb(201, 199, 199);
             width: 100%;
             height: 25px;
             border-radius: 1000px;
@@ -64,6 +65,12 @@
             /* animation-direction: forward; */
             animation-fill-mode: forwards;
         }
+        .skill-header{
+            background-color: rgba(176, 189, 188, 0.452);
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+        }
 
         .skill-container li.html::after{
             animation-name: html;
@@ -72,7 +79,7 @@
         @keyframes html{
             to{
                 width: 90%;
-                background-color: orange;
+                background-color: rgba(0, 255, 13, 0.719);
             }
         }
 
@@ -86,3 +93,134 @@
                 background-color: orangered;
             }
         }
+        .skill-container li.react::after{
+            animation-name: react;
+        }
+
+        @keyframes react{
+            to{
+                width: 80%;
+                background-color: orangered;
+            }
+        }
+        .skill-container li.node::after{
+            animation-name: node;
+        }
+
+        @keyframes node{
+            to{
+                width: 40%;
+                background-color: rgba(1, 5, 243, 0.623);
+            }
+        }
+        .skill-container li.node::after{
+            animation-name: node;
+        }
+
+        @keyframes node{
+            to{
+                width: 40%;
+                background-color: rgb(0, 255, 0);
+            }
+        }
+        .skill-container li.react-bootstrap::after{
+            animation-name: react-bootstrap;
+        }
+
+        @keyframes react-bootstrap{
+            to{
+                width: 90%;
+                background-color: orangered;
+            }
+        }
+        .skill-container li.material::after{
+            animation-name: material;
+        }
+
+        @keyframes material{
+            to{
+                width: 70%;
+                background-color: orangered;
+            }
+        }
+        .skill-container li.javascript::after{
+            animation-name: javascript;
+        }
+
+        @keyframes javascript{
+            to{
+                width: 70%;
+                background-color: orangered;
+            }
+        }
+        .skill-container li.mongodb::after{
+            animation-name: mongodb;
+        }
+
+        @keyframes mongodb{
+            to{
+                width: 40%;
+                background-color: rgb(60, 255, 0);
+            }
+        }
+        .skill-container li.express::after{
+            animation-name: express;
+        }
+
+        @keyframes express{
+            to{
+                width: 40%;
+                background-color: rgb(43, 255, 0);
+            }
+        }
+        .skill-container li.vs::after{
+            animation-name: vs;
+        }
+
+        @keyframes vs{
+            to{
+                width: 60%;
+                background-color: rgb(0, 17, 255);
+            }
+        }
+        .skill-container li.firebase::after{
+            animation-name: firebase;
+        }
+
+        @keyframes firebase{
+            to{
+                width: 40%;
+                background-color: rgb(17, 0, 255);
+            }
+        }
+        .skill-container li.github::after{
+            animation-name: github;
+        }
+
+        @keyframes github{
+            to{
+                width: 40%;
+                background-color: rgb(4, 0, 255);
+            }
+        }
+        .skill-container li.figma::after{
+            animation-name: figma;
+        }
+
+        @keyframes figma{
+            to{
+                width: 40%;
+                background-color: rgb(17, 0, 255);
+            }
+        }
+        .skill-container li.heroku::after{
+            animation-name: heroku;
+        }
+
+        @keyframes heroku{
+            to{
+                width: 40%;
+                background-color: rgb(38, 0, 255);
+            }
+        }
+        

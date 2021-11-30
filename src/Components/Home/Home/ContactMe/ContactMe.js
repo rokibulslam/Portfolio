@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import { Form } from "react-bootstrap";
+import './ContactMe.css'
 
 export const ContactMe = () => {
   const form = useRef();
@@ -27,24 +28,42 @@ export const ContactMe = () => {
   };
 
   return (
-    <div className="m-5 container">
-      <Form className="d-flex justify-content-center align-items-center flex-column" ref={form} onSubmit={sendEmail}>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Your Name</Form.Label>
-          <Form.Control type="text" placeholder="Name" name="name" required/>
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="name@example.com"
-            name="email"
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" name="message" rows={3} />
-        </Form.Group>
-        <input type="submit" value="Send" />
-      </Form>
+    <div className="contact-bg text-white">
+      <h1 className="text-center py-5 ">Contact With Me</h1>
+      <div className="p-5  d-flex align-items-center justify-content-center m-0">
+        <div className="">
+          <Form ref={form} onSubmit={sendEmail}>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Your Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Name"
+                name="name"
+                required
+              />
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="name@example.com"
+                name="email"
+              />
+            </Form.Group>
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Example textarea</Form.Label>
+              <Form.Control
+                className="input-color"
+                as="textarea"
+                name="message"
+                rows={3}
+              />
+            </Form.Group>
+            <input className="contact-btn" type="submit" value="Send" />
+          </Form>
+        </div>
+      </div>
     </div>
   );
 };
