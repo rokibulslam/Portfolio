@@ -74,15 +74,17 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-            <a data-aos="zoom-in-down" href={projectD.live} target="_blank">
-              <button className="card-button">Preview</button>
-            </a>
-            <a data-aos="zoom-in-down" href={projectD.client} target="_blank">
-              <button className="card-button">Client Code</button>
-            </a>
-            <a data-aos="zoom-in-down" href={projectD.server} target="_blank">
-              <button className="card-button">Server Code</button>
-            </a>
+            
+              <a data-aos="zoom-in-down" href={projectD.live} target="_blank">
+                <button className="card-button mb-3">Preview</button>
+              </a>
+              <a data-aos="zoom-in-down" href={projectD.client} target="_blank">
+                <button className="card-button mb-3">Client Code</button>
+              </a>
+              <a data-aos="zoom-in-down mb-3" href={projectD.server} target="_blank">
+                <button className="card-button ">Server Code</button>
+              </a>
+            
           </div>
         ))}
       </div>
