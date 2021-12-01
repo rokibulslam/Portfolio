@@ -4,10 +4,10 @@
         "name": "CAR HOUSE",
         "tools": "HTML, CSS, Material UI, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios, Font-awesome-icon",
         "cover": "https://i.ibb.co/SrqfF0k/car-home5.png",
-        "pic1": "https://i.ibb.co/5sPPnJm/car-home.png",
-        "pic2": "https://i.ibb.co/ngtYVH4/car-manage.png",
-        "pic3": "https://i.ibb.co/FBmrY7m/car-customer-dashboard.png",
-        "pic4": "https://i.ibb.co/VCbGcHn/car-register.png",
+        "pic1": "https://i.ibb.co/q7x59WG/car-home.png",
+        "pic2": "https://i.ibb.co/rcC77XN/car-admint.png",
+        "pic3": "https://i.ibb.co/JdShrwt/car-register.png",
+        "pic4": "https://i.ibb.co/GQdLJS5/car-manage.png",
         "dis1": "This is Car selling responsive single-page web application with a secured login system functionality developed with firebase authentication",
         "dis2": "Registered users can see the user dashboard where they can manage their order, check order status, cancel an order, review the website and payment option.",
         "dis3": "Secured Admin panel, Only admin can add products, manage all orders, make admin from the admin dashboard",
@@ -22,10 +22,10 @@
         "name": "TRIP ADVISOR",
         "tools": "HTML, CSS, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios.",
         "cover": "https://i.ibb.co/NmNc7x0/trip-home5.png",
-        "pic1": "https://i.ibb.co/xstNmQW/trip-home.png",
-        "pic2": "https://i.ibb.co/9cd32ss/trip-login.png",
-        "pic3": "https://i.ibb.co/Z8g3jZK/trip-admin.png",
-        "pic4": "https://i.ibb.co/3zMDCHf/trip-order.png",
+        "pic1": "https://i.ibb.co/L08509V/trip-home.png",
+        "pic2": "https://i.ibb.co/bzg6jM6/trip-order.png",
+        "pic3": "https://i.ibb.co/vxrP1f9/trip-admin.png",
+        "pic4": "https://i.ibb.co/JBmprkY/trip-login.png",
         "dis1": "A single-page web application is accomplished with firebase authentication.",
         "dis2": "Users can register with email and password or log in with their Gmail account instead of registering.",
         "dis3": " Only registered users can book hotels and see product details.  User can see their order status on my order page.",
@@ -40,10 +40,10 @@
         "name": "PACIFIC MEDICAL CENTER",
         "tools": " HTML, CSS, Bootstrap, Firebase, React, React-Router",
         "cover": "https://i.ibb.co/093xtXq/pacific-home5.png",
-        "pic1": "https://i.ibb.co/M9MtnHS/hospital-hom.png",
-        "pic2": "https://i.ibb.co/kHrZ82c/hospital-login.png",
-        "pic3": "https://i.ibb.co/Fnk0V0W/hospital-about.png",
-        "pic4": "https://i.ibb.co/Z8Ks16n/hospital-appoint.png",
+        "pic1": "https://i.ibb.co/b1Q3ykq/hospital-hom.png",
+        "pic2": "https://i.ibb.co/sQXpvVm/hospital-about.png",
+        "pic3": "https://i.ibb.co/CV0X4BM/hospital-appoint.png",
+        "pic4": "https://i.ibb.co/1GkVCXh/hospital-login.png",
         "dis1": "Healthcare-related single-page web solution, Mobile and Tablet responsive, and login functionality implemented with firebase authentication.",
         "dis2": "Users can register with email and password or log in with their Gmail account instead of registering. ",
         "dis3": " Once a user is logged in, the user name, and the logout button will appear on the Navbar which will log out the user once clicked.",
@@ -54,6 +54,17 @@
         "server": "https://github.com/rokibulslam/Pacific-Medical-Center"
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
