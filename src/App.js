@@ -9,6 +9,7 @@ import ProjectDetails from './Components/Pages/Home/ProjectDetails/ProjectDetail
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
+import Blog from './Components/Pages/Blog/Blog';
 
 
 
@@ -24,10 +25,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="home/projectDetails/:useId" element={<ProjectDetails></ProjectDetails>}></Route>
+        <Route
+          path="home/projectDetails/:useId"
+          element={<ProjectDetails></ProjectDetails>}
+        ></Route>
         <Route path="/aboutMe" element={<AboutMe></AboutMe>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
       </Routes>
-      
     </Router>
   );
 }

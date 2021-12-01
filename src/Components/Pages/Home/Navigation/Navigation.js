@@ -29,21 +29,14 @@ const Navigation = () => {
                 <NavLink
                   to="/blog"
                   className="text-decoration-none me-3 nav-text-color"
-                  href="#features"
+                  
                 >
                   Blog
                 </NavLink>
                 <NavLink
-                  to="#projects"
-                  className="text-decoration-none me-3 nav-text-color"
-                  href="#projects"
-                >
-                  Projects
-                </NavLink>
-                <NavLink
                   to="/aboutMe"
                   className="nav-text-color text-decoration-none me-3"
-                  href="#pricing"
+                  
                 >
                   About Me
                 </NavLink>

@@ -3,10 +3,10 @@
         "_id": "1",
         "name": "CAR HOUSE",
         "tools": "HTML, CSS, Material UI, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios, Font-awesome-icon",
-        "pic1": "https://i.ibb.co/p4Bgd0S/car1.png",
-        "pic2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
-        "pic3": "https://i.ibb.co/yhHgNSY/car2.png",
-        "pic4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
+        "pic1": "https://i.ibb.co/5sPPnJm/car-home.png",
+        "pic2": "https://i.ibb.co/ngtYVH4/car-manage.png",
+        "pic3": "https://i.ibb.co/FBmrY7m/car-customer-dashboard.png",
+        "pic4": "https://i.ibb.co/VCbGcHn/car-register.png",
         "dis1": "This is Car selling responsive single-page web application with a secured login system functionality developed with firebase authentication",
         "dis2": "Registered users can see the user dashboard where they can manage their order, check order status, cancel an order, review the website and payment option.",
         "dis3": "Secured Admin panel, Only admin can add products, manage all orders, make admin from the admin dashboard",
@@ -20,10 +20,10 @@
         "_id": "2",
         "name": "TRIP ADVISOR",
         "tools": "HTML, CSS, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios.",
-        "pic1": "https://i.ibb.co/VtMbkzC/car3.png",
-        "pic2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
-        "pic3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
-        "pic4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
+        "pic1": "https://i.ibb.co/xstNmQW/trip-home.png",
+        "pic2": "https://i.ibb.co/9cd32ss/trip-login.png",
+        "pic3": "https://i.ibb.co/Z8g3jZK/trip-admin.png",
+        "pic4": "https://i.ibb.co/3zMDCHf/trip-order.png",
         "dis1": "A single-page web application is accomplished with firebase authentication.",
         "dis2": "Users can register with email and password or log in with their Gmail account instead of registering.",
         "dis3": " Only registered users can book hotels and see product details.  User can see their order status on my order page.",
@@ -37,10 +37,10 @@
         "_id": "3",
         "name": "PACIFIC MEDICAL CENTER",
         "tools": " HTML, CSS, Bootstrap, Firebase, React, React-Router",
-        "pic1": "https://i.ibb.co/4KMMzb3/car12.png",
-        "pic2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
-        "pic3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
-        "pic4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wZra0g-St_IBhI4EF07M1yY-0wHeHtBUDEl9Bn3JGRkoyltNAaitrQxsQF4WETe2mVY&usqp=CAU",
+        "pic1": "https://i.ibb.co/M9MtnHS/hospital-hom.png",
+        "pic2": "https://i.ibb.co/kHrZ82c/hospital-login.png",
+        "pic3": "https://i.ibb.co/Fnk0V0W/hospital-about.png",
+        "pic4": "https://i.ibb.co/Z8Ks16n/hospital-appoint.png",
         "dis1": "Healthcare-related single-page web solution, Mobile and Tablet responsive, and login functionality implemented with firebase authentication.",
         "dis2": "Users can register with email and password or log in with their Gmail account instead of registering. ",
         "dis3": " Once a user is logged in, the user name, and the logout button will appear on the Navbar which will log out the user once clicked.",
@@ -51,3 +51,13 @@
         "server": "https://github.com/rokibulslam/Pacific-Medical-Center"
     }
 ]
+
+
+
+
+
+
+
+
+
+
