@@ -11,10 +11,10 @@ const AboutMe = () => {
       <h1 className="text-center">About Me</h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-sm-12 pb-5  align-items-center d-flex justify-content-between">
+          <div className="col-md-6 col-sm-12 pb-5  ">
             <Image className="img-fluid profile-pic" src={profilePic} alt="" />
           </div>
-          <div className="col-md-6 col-sm-12 lign-items-center d-flex justify-content-between">
+          <div className="col-md-6 col-sm-12">
             <div className="pt-5">
               <h1>MD Rokibul Islam</h1>
               <p>

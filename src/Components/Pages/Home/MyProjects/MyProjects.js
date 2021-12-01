@@ -15,15 +15,17 @@ const MyProjects = () => {
   },[])
     return (
       <div id="projects" className="px-5 pb-5 text-center project-bg">
+        <figure className="c4-izmir c4-border-vert">
+          <img src="https://source.unsplash.com/WLUHO9A_xik/400x300" alt="" />
+          <figcaption>Caption text</figcaption>
+        </figure>
         <h1 className="py-5 text-center ">MY Projects</h1>
         <Row xs={1} md={3} className="g-5 pb-5">
           {projects?.map((pt) => (
-           
             <Col key={pt._id}>
-              
-              <Card>
-                <Card.Img className="img-hover" variant="top" src="" />
-                <Card.Body className="card-text">
+              <Card className="d-flex flex-column justify-content-end align-content-center">
+                <Card.Img className="img-fluid" variant="top" src={pt.pic1} />
+                <Card.Body className="card-text d-flex flex-column justify-content-end align-content-center">
                   <Card.Title>CAR HOUSE</Card.Title>
                   <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="1">
