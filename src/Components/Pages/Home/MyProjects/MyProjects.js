@@ -18,7 +18,12 @@ const MyProjects = () => {
         <h1 className="py-5 text-center ">MY Projects</h1>
         <Row xs={1} md={3} className="g-5 pb-5">
           {projects?.map((pt) => (
-            <Col key={pt._id}>
+            <Col
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            
+              key={pt._id}>
               <Card className="d-flex flex-column justify-content-end align-content-center h-100 w-100">
                 <Card.Img className="img-fluid" variant="top" src={pt.pic1} />
                 <Card.Body className="card-text d-flex flex-column justify-content-end align-content-center">

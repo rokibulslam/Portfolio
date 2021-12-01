@@ -24,7 +24,10 @@ const ProjectDetails = () => {
             <h1 className="text-center">name: {projectD?.name}</h1>
             <div className="row g-5">
               <div className="col-md-6">
-                <Card className="bg-dark text-white h-100 w-100">
+                <Card
+                  data-aos="zoom-in"
+                  className="bg-dark text-white h-100 w-100"
+                >
                   <Card.Img
                     className="img-fluid"
                     src={projectD.pic1}
@@ -32,7 +35,7 @@ const ProjectDetails = () => {
                   />
                 </Card>
               </div>
-              <div className="col-md-6">
+              <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
                   <Card.Img
                     className="offcanvas-body"
@@ -41,18 +44,18 @@ const ProjectDetails = () => {
                   />
                 </Card>
               </div>
-              <div className="col-md-6">
+              <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
                   <Card.Img src={projectD.pic3} alt="Card image" />
                 </Card>
               </div>
-              <div className="col-md-6">
+              <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
                   <Card.Img src={projectD.pic4} alt="Card image" />
                 </Card>
               </div>
             </div>
-            <div className="mt-5">
+            <div data-aos="zoom-in-down" className="mt-5">
               <h1>Features Of {projectD.name}</h1>
               <div>
                 <ul>
@@ -65,7 +68,7 @@ const ProjectDetails = () => {
                 <div>
                   <h3>Tools</h3>
                   <ul>
-                    <li>{ projectD.tools}</li>
+                    <li>{projectD.tools}</li>
                   </ul>
                 </div>
               </div>
