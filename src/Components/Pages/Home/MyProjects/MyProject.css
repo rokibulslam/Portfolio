@@ -26,3 +26,6 @@
     color: rgb(10, 245, 151);
    
 }
+.card-image img{
+    object-fit: cover;
+}

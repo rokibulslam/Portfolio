@@ -25,7 +25,7 @@ const MyProjects = () => {
             
               key={pt._id}>
               <Card className="d-flex flex-column justify-content-end align-content-center h-100 w-100">
-                <Card.Img className="img-fluid" variant="top" src={pt.pic1} />
+                <Card.Img className="img-fluid" variant="top" src={pt.cover} />
                 <Card.Body className="card-text d-flex flex-column justify-content-end align-content-center">
                   <Card.Title>{pt.name}</Card.Title>
                   <Accordion defaultActiveKey="0">

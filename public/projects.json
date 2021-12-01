@@ -3,6 +3,7 @@
         "_id": "1",
         "name": "CAR HOUSE",
         "tools": "HTML, CSS, Material UI, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios, Font-awesome-icon",
+        "cover": "https://i.ibb.co/SrqfF0k/car-home5.png",
         "pic1": "https://i.ibb.co/5sPPnJm/car-home.png",
         "pic2": "https://i.ibb.co/ngtYVH4/car-manage.png",
         "pic3": "https://i.ibb.co/FBmrY7m/car-customer-dashboard.png",
@@ -20,6 +21,7 @@
         "_id": "2",
         "name": "TRIP ADVISOR",
         "tools": "HTML, CSS, Bootstrap, Firebase, React, Node.js, Express.js, JWT Token, Heroku, MongoDB, API, Axios.",
+        "cover": "https://i.ibb.co/NmNc7x0/trip-home5.png",
         "pic1": "https://i.ibb.co/xstNmQW/trip-home.png",
         "pic2": "https://i.ibb.co/9cd32ss/trip-login.png",
         "pic3": "https://i.ibb.co/Z8g3jZK/trip-admin.png",
@@ -37,6 +39,7 @@
         "_id": "3",
         "name": "PACIFIC MEDICAL CENTER",
         "tools": " HTML, CSS, Bootstrap, Firebase, React, React-Router",
+        "cover": "https://i.ibb.co/093xtXq/pacific-home5.png",
         "pic1": "https://i.ibb.co/M9MtnHS/hospital-hom.png",
         "pic2": "https://i.ibb.co/kHrZ82c/hospital-login.png",
         "pic3": "https://i.ibb.co/Fnk0V0W/hospital-about.png",
@@ -51,6 +54,8 @@
         "server": "https://github.com/rokibulslam/Pacific-Medical-Center"
     }
 ]
+
+
 
 
 
