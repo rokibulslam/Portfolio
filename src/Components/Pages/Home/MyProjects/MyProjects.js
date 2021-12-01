@@ -15,31 +15,19 @@ const MyProjects = () => {
   },[])
     return (
       <div id="projects" className="px-5 pb-5 text-center project-bg">
-        <figure className="c4-izmir c4-border-vert">
-          <img src="https://source.unsplash.com/WLUHO9A_xik/400x300" alt="" />
-          <figcaption>Caption text</figcaption>
-        </figure>
         <h1 className="py-5 text-center ">MY Projects</h1>
         <Row xs={1} md={3} className="g-5 pb-5">
           {projects?.map((pt) => (
             <Col key={pt._id}>
-              <Card className="d-flex flex-column justify-content-end align-content-center">
+              <Card className="d-flex flex-column justify-content-end align-content-center h-100 w-100">
                 <Card.Img className="img-fluid" variant="top" src={pt.pic1} />
                 <Card.Body className="card-text d-flex flex-column justify-content-end align-content-center">
                   <Card.Title>CAR HOUSE</Card.Title>
                   <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="1">
                       <Accordion.Header>About This Project</Accordion.Header>
-                      <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
+                      <Accordion.Body className="text-start">
+                        {pt.dis1}
                       </Accordion.Body>
                     </Accordion.Item>
                   </Accordion>

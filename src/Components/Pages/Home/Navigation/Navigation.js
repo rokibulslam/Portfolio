@@ -41,7 +41,7 @@ const Navigation = () => {
                   Projects
                 </NavLink>
                 <NavLink
-                  to="aboutMe"
+                  to="/aboutMe"
                   className="nav-text-color text-decoration-none me-3"
                   href="#pricing"
                 >
