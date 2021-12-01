@@ -30,16 +30,23 @@ const Intro = () => {
               </NavLink> */}
             </div>
             <div className="">
-              <FontAwesomeIcon
-                className="intro-icon"
-                icon={faLinkedin}
-                size="3x"
-              />
-              <FontAwesomeIcon
-                className="intro-icon"
-                icon={faGithub}
-                size="3x"
-              />
+              <a
+                href="https://www.linkedin.com/in/rokibulslam/"
+                target="_blank"
+              >
+                <FontAwesomeIcon
+                  className="intro-icon"
+                  icon={faLinkedin}
+                  size="3x"
+                />
+              </a>
+              <a href="https://github.com/rokibulslam" target="_blank">
+                <FontAwesomeIcon
+                  className="intro-icon"
+                  icon={faGithub}
+                  size="3x"
+                />
+              </a>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
 import { useParams } from "react-router";
+import './ProjectDetails.css'
 
 const ProjectDetails = () => {
   const { useId } = useParams();
@@ -16,7 +17,7 @@ const ProjectDetails = () => {
   const project = projects?.filter((pt) => pt._id === useId);
 
   return (
-    <div className="mt-5">
+    <div className="mt-5 projectD">
       <div className="container">
         {project?.map((projectD) => (
           <div>
@@ -51,7 +52,7 @@ const ProjectDetails = () => {
                 </Card>
               </div>
             </div>
-            <div>
+            <div className="mt-5">
               <h1>Features Of {projectD.name}</h1>
               <div>
                 <ul>
