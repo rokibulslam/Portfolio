@@ -11,10 +11,10 @@ const AboutMe = () => {
       <h1 className="text-center">About Me</h1>
       <div className="container">
         <div className="row">
-          <div className="col-md-6 pb-5  align-items-center d-flex justify-content-between">
+          <div className="col-md-6 col-sm-12 pb-5  align-items-center d-flex justify-content-between">
             <Image className="img-fluid profile-pic" src={profilePic} alt="" />
           </div>
-          <div className="col-md-6 lign-items-center d-flex justify-content-between">
+          <div className="col-md-6 col-sm-12 lign-items-center d-flex justify-content-between">
             <div className="pt-5">
               <h1>MD Rokibul Islam</h1>
               <p>
@@ -26,12 +26,12 @@ const AboutMe = () => {
               </p>
 
               <div className="row pt-4">
-                <div className="col-md-3">
+                <div className="col-md-3 col-sm-3">
                   <div>
                     <h5>Skill</h5>
                   </div>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 col-sm-9">
                   <div>
                     <div>
                       <li>
