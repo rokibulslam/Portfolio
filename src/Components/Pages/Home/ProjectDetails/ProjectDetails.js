@@ -21,7 +21,7 @@ const ProjectDetails = () => {
       <div className="container">
         {project?.map((projectD) => (
           <div>
-            <h1 className="text-center">name: {projectD?.name}</h1>
+            <h1 className="text-center pb-5">Project Name: {projectD?.name}</h1>
             <div className="row g-5">
               <div className="col-md-6">
                 <Card
@@ -73,6 +73,16 @@ const ProjectDetails = () => {
                 </div>
               </div>
             </div>
+
+            <a data-aos="zoom-in-down" href={projectD.live} target="_blank">
+              <button className="card-button">Preview</button>
+            </a>
+            <a data-aos="zoom-in-down" href={projectD.client} target="_blank">
+              <button className="card-button">Client Code</button>
+            </a>
+            <a data-aos="zoom-in-down" href={projectD.server} target="_blank">
+              <button className="card-button">Server Code</button>
+            </a>
           </div>
         ))}
       </div>

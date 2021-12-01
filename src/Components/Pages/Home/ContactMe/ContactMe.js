@@ -37,10 +37,10 @@ export const ContactMe = () => {
         <div className="row">
           <div className="col-md-6 p-5">
             <h1 className="pb-4">
-              <span className="text-danger">Contact</span>{" "}
+              <span className="text-color">Contact</span>{" "}
               <span className="text-white">Info</span>
             </h1>
-            <div className="d-flex">
+            <div className="d-flex text-white">
               <FontAwesomeIcon
                 className="contact-icon me-3"
                 icon={faEnvelope}
@@ -48,7 +48,7 @@ export const ContactMe = () => {
               />
               <h4 className="">rokibulislam4151@gmail.com</h4>
             </div>
-            <div className="d-flex">
+            <div className="d-flex text-white">
               <FontAwesomeIcon
                 className="contact-icon me-3 "
                 icon={faPhone}
@@ -56,7 +56,7 @@ export const ContactMe = () => {
               />
               <h4 className="">+8801735754758</h4>
             </div>
-            <div className="d-flex">
+            <div className="d-flex text-white">
               <FontAwesomeIcon
                 className="contact-icon me-3"
                 icon={faHome}
@@ -73,9 +73,11 @@ export const ContactMe = () => {
                     className="mb-3"
                     controlId="exampleForm.ControlInput1"
                   >
-                    <Form.Label>Your Name</Form.Label>
+                    <Form.Label className="text-white">Your Name</Form.Label>
                     <Form.Control type="text" name="name" required />
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label className="text-white">
+                      Email address
+                    </Form.Label>
                     <Form.Control
                       type="email"
                       placeholder="name@example.com"
@@ -86,7 +88,7 @@ export const ContactMe = () => {
                     className="mb-3"
                     controlId="exampleForm.ControlTextarea1"
                   >
-                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Label className="text-white">Message</Form.Label>
                     <Form.Control
                       className="input-color"
                       as="textarea"

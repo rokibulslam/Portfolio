@@ -27,10 +27,10 @@ const MyProjects = () => {
               <Card className="d-flex flex-column justify-content-end align-content-center h-100 w-100">
                 <Card.Img className="img-fluid" variant="top" src={pt.pic1} />
                 <Card.Body className="card-text d-flex flex-column justify-content-end align-content-center">
-                  <Card.Title>CAR HOUSE</Card.Title>
+                  <Card.Title>{pt.name}</Card.Title>
                   <Accordion defaultActiveKey="0">
                     <Accordion.Item eventKey="1">
-                      <Accordion.Header>About This Project</Accordion.Header>
+                      <Accordion.Header>Small Summary</Accordion.Header>
                       <Accordion.Body className="text-start">
                         {pt.dis1}
                       </Accordion.Body>

@@ -4,8 +4,8 @@
     height: 100%;
     width: 100%;
     /* background-color: #00EB89; */
-    background-color: #0AF597;
-    color: rgb(0, 59, 56);
+    background-color: #0c7772;
+    color: white;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -13,210 +13,16 @@
     background-position: center;
    
 }
-
+.tools-icon{
+    /* height: 150px;
+    width: 150px; */
+    border-radius: 2px solid black;
+    /* background-color: blue; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 545px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+.text-color{
+    color: rgb(10, 245, 151);
+}
         
-        .skill-container{
-            background-color: rgba(255, 255, 255, 0);
-            /* width: 500px; */
-            padding: 20px; 
-            box-sizing: border-box;
-        }
-
-        .skill-container li{
-            list-style-type: none;
-            margin: 50px 0;
-            font-weight: bolder;
-            text-transform: uppercase;
-            position: relative;
-        }
-
-        .skill-container li::before{
-
-            content: '';
-            position: absolute;
-            top: calc(100% + 5px);
-            left: 0;
-
-
-            background-color: rgb(236, 230, 230);
-            width: 100%;
-            height: 25px;
-            border-radius: 1000px;
-        }
-
-
-        .skill-container li::after{
-
-            content: '';
-            position: absolute;
-            top: calc(100% + 5px);
-            left: 0;
-
-
-            background-color: rgb(249,249,250);
-            width: 0;
-            height: 25px;
-            border-radius: 1000px;
-
-
-            animation-duration: 3s;
-            animation-timing-function: ease;
-            animation-delay: 1s;
-            /* animation-iteration-count: 3; */
-            /* animation-direction: forward; */
-            animation-fill-mode: forwards;
-        }
-        
-
-        .skill-container li.html::after{
-            animation-name: html;
-        }
-
-        @keyframes html{
-            to{
-                width: 90%;
-                background-color: rgba(0, 255, 13, 0.719);
-            }
-        }
-
-        .skill-container li.css::after{
-            animation-name: css;
-        }
-
-        @keyframes css{
-            to{
-                width: 80%;
-                background-color: orangered;
-            }
-        }
-        .skill-container li.react::after{
-            animation-name: react;
-        }
-
-        @keyframes react{
-            to{
-                width: 80%;
-                background-color: orangered;
-            }
-        }
-        .skill-container li.node::after{
-            animation-name: node;
-        }
-
-        @keyframes node{
-            to{
-                width: 40%;
-                background-color: rgba(1, 5, 243, 0.623);
-            }
-        }
-        .skill-container li.node::after{
-            animation-name: node;
-        }
-
-        @keyframes node{
-            to{
-                width: 40%;
-                background-color: rgb(0, 255, 0);
-            }
-        }
-        .skill-container li.react-bootstrap::after{
-            animation-name: react-bootstrap;
-        }
-
-        @keyframes react-bootstrap{
-            to{
-                width: 90%;
-                background-color: orangered;
-            }
-        }
-        .skill-container li.material::after{
-            animation-name: material;
-        }
-
-        @keyframes material{
-            to{
-                width: 70%;
-                background-color: orangered;
-            }
-        }
-        .skill-container li.javascript::after{
-            animation-name: javascript;
-        }
-
-        @keyframes javascript{
-            to{
-                width: 70%;
-                background-color: orangered;
-            }
-        }
-        .skill-container li.mongodb::after{
-            animation-name: mongodb;
-        }
-
-        @keyframes mongodb{
-            to{
-                width: 40%;
-                background-color: rgb(60, 255, 0);
-            }
-        }
-        .skill-container li.express::after{
-            animation-name: express;
-        }
-
-        @keyframes express{
-            to{
-                width: 40%;
-                background-color: rgb(43, 255, 0);
-            }
-        }
-        .skill-container li.vs::after{
-            animation-name: vs;
-        }
-
-        @keyframes vs{
-            to{
-                width: 60%;
-                background-color: rgb(0, 17, 255);
-            }
-        }
-        .skill-container li.firebase::after{
-            animation-name: firebase;
-        }
-
-        @keyframes firebase{
-            to{
-                width: 40%;
-                background-color: rgb(17, 0, 255);
-            }
-        }
-        .skill-container li.github::after{
-            animation-name: github;
-        }
-
-        @keyframes github{
-            to{
-                width: 40%;
-                background-color: rgb(4, 0, 255);
-            }
-        }
-        .skill-container li.figma::after{
-            animation-name: figma;
-        }
-
-        @keyframes figma{
-            to{
-                width: 40%;
-                background-color: rgb(17, 0, 255);
-            }
-        }
-        .skill-container li.heroku::after{
-            animation-name: heroku;
-        }
-
-        @keyframes heroku{
-            to{
-                width: 40%;
-                background-color: rgb(38, 0, 255);
-            }
-        }
+       
         

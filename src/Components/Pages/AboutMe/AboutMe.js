@@ -8,7 +8,7 @@ const AboutMe = () => {
       className="about-me
     "
     >
-      <h1 className="text-center">About Me</h1>
+      <h1 className="text-center text-white">About Me</h1>
       <div className="container">
         <div className="row">
           <div data-aos="zoom-out-down" className="col-md-6 col-sm-12 pb-5  ">
@@ -16,8 +16,8 @@ const AboutMe = () => {
           </div>
           <div data-aos="zoom-out-down" className="col-md-6 col-sm-12">
             <div className="pt-5">
-              <h1>MD Rokibul Islam</h1>
-              <p>
+              <h1 className="">MD Rokibul Islam</h1>
+              <p className="text-white">
                 Despite not having a science background, I have come this far by
                 my own will because I love programming and technology. My goal
                 is to develop myself as a professional programmer. Becoming a
@@ -28,10 +28,10 @@ const AboutMe = () => {
               <div className="row pt-4">
                 <div className="col-md-3 col-sm-3">
                   <div>
-                    <h5>Skill</h5>
+                    <h5 >Skill</h5>
                   </div>
                 </div>
-                <div className="col-md-9 col-sm-9">
+                <div className="col-md-9 col-sm-9 text-white">
                   <div>
                     <div>
                       <li>
@@ -57,7 +57,7 @@ const AboutMe = () => {
                     <h4>Experience</h4>
                   </div>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 text-white">
                   <div>
                     <div>
                       <li>
@@ -75,7 +75,7 @@ const AboutMe = () => {
                     <h4>COURSES & TRAINING</h4>
                   </div>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 text-white">
                   <div>
                     <div>
                       <li>
@@ -102,7 +102,7 @@ const AboutMe = () => {
                     <h4>Education</h4>
                   </div>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 text-white">
                   <div>
                     <div>
                       <li>

@@ -1,49 +1,74 @@
 import React from 'react';
 import './MySkill.css'
-
+import firebase from '../../../../images/Icon/firebase.svg'
+import bootstrap from "../../../../images/Icon/bootstrap.png";
+import css from "../../../../images/Icon/css.png";
+import express from "../../../../images/Icon/expressjs.png";
+import github from "../../../../images/Icon/github.png";
+import html from "../../../../images/Icon/html.svg";
+import javascript from "../../../../images/Icon/javascript.png";
+import linux from "../../../../images/Icon/linux.ico";
+import mongo from "../../../../images/Icon/mongodb.svg";
+import mui from "../../../../images/Icon/mui.png";
+import node from "../../../../images/Icon/nodejs.png";
+import react from "../../../../images/Icon/react.png";
+import vs from "../../../../images/Icon/vscodecolor.png";
+// data-aos="fade-up"
+//               data-aos-anchor-placement="top-center"
 
 const MySkill = () => {
     return (
-      <div className="skills-banner py-5">
-        <h1 className="text-center">MY SKILLS</h1>
-        <div className="container ">
-          <div className="row justify-content-evenly">
-            <div
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              class="skill-container col-md-4 col-sm-12"
-            >
-              <ul>
-                <li className="html">HTML</li>
-                <li className="css">CSS</li>
-                <li className="react-bootstrap">React Bootstrap</li>
-                <li className="material">Material UI</li>
-              </ul>
+      <div className="skills-banner">
+        <h1 className="text-center pt-5 text-color">My Skills</h1>
+        <div className="container p-5">
+          <div className="row g-5">
+            <div className="tools-icon col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={html} alt="" />
+              <p>HTML</p>
             </div>
-            <div
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              class="skill-container col-md-4 col-sm-12"
-            >
-              <ul>
-                <li className="javascript">Javascript</li>
-                <li className="react">React.Js</li>
-                <li className="node">Node.JS</li>
-
-                <li className="express">Express.js</li>
-              </ul>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="80px" src={css} alt="" />
+              <p>CSS</p>
             </div>
-            <div
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              class="skill-container col-md-4 col-sm-12"
-            >
-              <ul>
-                <li className="mongodb">Mongdb</li>
-                <li className="vs">VS Code</li>
-                <li className="firebase">Firebase</li>
-                <li className="github">Github</li>
-              </ul>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={bootstrap} alt="" />
+              <p>BootStrap</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={javascript} alt="" />
+              <p>Javascript</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={react} alt="" />
+              <p>React</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={node} alt="" />
+              <p>NodeJs</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={express} alt="" />
+              <p>Express js</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={mongo} alt="" />
+              <p>Mogodb</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={firebase} alt="" />
+              <p>Firebase</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={vs} alt="" />
+              <p>vs</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={github} alt="" />
+              <p>Github</p>
+            </div>
+            <div className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center">
+              <img height="70px" width="100px" src={mui} alt="" />
+              <p>Material UI</p>
             </div>
           </div>
         </div>
