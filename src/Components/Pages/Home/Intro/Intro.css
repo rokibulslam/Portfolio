@@ -15,7 +15,7 @@
 }
 
 .intro-button{
-    background-color: rgba(250, 247, 247, 0.336);
+    background-color: black;
     color: white;
     margin-left: 15px;
     margin-top: 30px;
@@ -27,7 +27,7 @@
     color: #003B38;
 }
 .intro-icon{
-    background-color: rgba(250, 247, 247, 0.336);
+    background-color: black;
    cursor: pointer;
     color: white;
     border: 1px solid wheat;

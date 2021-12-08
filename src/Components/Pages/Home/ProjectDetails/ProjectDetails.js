@@ -29,7 +29,8 @@ const ProjectDetails = () => {
                   className="bg-dark text-white h-100 w-100"
                 >
                   <Card.Img
-                    className="img-fluid"
+                    className=""
+                    height="500px"
                     src={projectD.pic1}
                     alt="Card image"
                   />
@@ -38,7 +39,8 @@ const ProjectDetails = () => {
               <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
                   <Card.Img
-                    className="offcanvas-body"
+                    className=""
+                    height="500px"
                     src={projectD.pic2}
                     alt="Card image"
                   />
@@ -46,12 +48,22 @@ const ProjectDetails = () => {
               </div>
               <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
-                  <Card.Img src={projectD.pic3} alt="Card image" />
+                  <Card.Img
+                    className=""
+                    height="500px"
+                    src={projectD.pic3}
+                    alt="Card image"
+                  />
                 </Card>
               </div>
               <div data-aos="zoom-in" className="col-md-6">
                 <Card className="bg-dark text-white h-100 w-100">
-                  <Card.Img src={projectD.pic4} alt="Card image" />
+                  <Card.Img
+                    className=""
+                    height="500px"
+                    src={projectD.pic4}
+                    alt="Card image"
+                  />
                 </Card>
               </div>
             </div>
@@ -74,17 +86,19 @@ const ProjectDetails = () => {
               </div>
             </div>
 
-            
-              <a data-aos="zoom-in-down" href={projectD.live} target="_blank">
-                <button className="card-button mb-3">Preview</button>
-              </a>
-              <a data-aos="zoom-in-down" href={projectD.client} target="_blank">
-                <button className="card-button mb-3">Client Code</button>
-              </a>
-              <a data-aos="zoom-in-down mb-3" href={projectD.server} target="_blank">
-                <button className="card-button ">Server Code</button>
-              </a>
-            
+            <a data-aos="zoom-in-down" href={projectD.live} target="_blank">
+              <button className="card-button mb-3 mx-3">Preview</button>
+            </a>
+            <a data-aos="zoom-in-down" href={projectD.client} target="_blank">
+              <button className="card-button mb-3 mx-2">Client Code</button>
+            </a>
+            <a
+              data-aos="zoom-in-down mb-2"
+              href={projectD.server}
+              target="_blank"
+            >
+              <button className="card-button  mx-2">Server Code</button>
+            </a>
           </div>
         ))}
       </div>

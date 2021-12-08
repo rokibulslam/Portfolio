@@ -4,20 +4,19 @@
     
 }
 .card-button{
-    background-color: #013030;
-    color: rgb(10, 245, 151);
-    margin-left: 10px;
-    border: 0px;
+    background: black;
+    color: rgb(252, 253, 253);
     padding: 5px 20px 5px 20px;
-    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
 }
 
 .project-bg {
     /* background-image: url("../../../../images/skill7.jpg"),
         linear-gradient(rgba(19, 18, 18, 0.281), rgb(12, 12, 12)); */
         background-color: #013030;
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    max-width: 100%;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -26,6 +25,35 @@
     color: rgb(10, 245, 151);
    
 }
-.card-image img{
+
+.card-img img{
     object-fit: cover;
+}
+.card-hover{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.image-overlay{
+    position: absolute;
+    margin: 0%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0130309a;
+    transition: opacity 0.45s;
+}
+.image-overlay:hover{
+    opacity: 1;
+}
+.image-overlay > * {
+    transform: translateY(50px);
+    transition: transform 0.45s;
+}
+.image-overlay:hover > * {
+    transform: translateY(0);
 }
