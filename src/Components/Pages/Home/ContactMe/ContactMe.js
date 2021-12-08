@@ -34,36 +34,36 @@ export const ContactMe = () => {
     <div>
       <div className="contact-bg ">
         <div className=" container">
-          <h1 className="text-center py-5 ">Contact With Me</h1>
+          <h1 className="text-center text-white fs-1 fw-bolder  py-5 ">Contact With Me</h1>
           <div className="row">
             <div className="col-md-6 mb-5">
               <h1 className="pb-4">
                 <span className="text-color">Contact</span>{" "}
                 <span className="text-white">Info</span>
               </h1>
-              <div className="d-flex text-white">
+              <div className="d-flex align-items-center text-white">
                 <FontAwesomeIcon
                   className="contact-icon me-3"
                   icon={faEnvelope}
-                  size="2x"
+                  size="1x"
                 />
-                <p className="">rokibulislam5141@gmail.com</p>
+                <h6 className="">rokibul.islam5141@gmail.com</h6>
               </div>
-              <div className="d-flex text-white">
+              <div className="d-flex align-items-center text-white">
                 <FontAwesomeIcon
                   className="contact-icon me-3 "
                   icon={faPhone}
-                  size="2x"
+                  size="1x"
                 />
-                <h5 className="">+8801735754758</h5>
+                <h6 className="">+8801612225141</h6>
               </div>
-              <div className="d-flex text-white">
+              <div className="d-flex align-items-center text-white">
                 <FontAwesomeIcon
                   className="contact-icon me-3"
                   icon={faHome}
-                  size="2x"
+                  size="1x"
                 />
-                <h5 className="">Pabna, Rajshahi, Bangladesh</h5>
+                <h6 className="">Pabna, Rajshahi, Bangladesh</h6>
               </div>
             </div>
             <div className="col-md-6 mb-5">
