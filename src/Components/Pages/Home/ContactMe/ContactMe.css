@@ -11,3 +11,7 @@
     background-color: #0c7772;
     color: rgb(10, 245, 151);
 }
+.contact-btn:hover{
+     background-color: wheat;
+    color: black;
+}

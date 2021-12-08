@@ -10,6 +10,11 @@
     border: 0px;
     font-size: 20px;
 }
+.card-button:hover{
+    background-color: wheat;
+    color: black;
+    
+}
 
 .project-bg {
     /* background-image: url("../../../../images/skill7.jpg"),
