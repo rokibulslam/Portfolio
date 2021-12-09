@@ -47,7 +47,7 @@ export const ContactMe = () => {
                   icon={faEnvelope}
                   size="1x"
                 />
-                <h6 className="">rokibul.islam5141@gmail.com</h6>
+                <h6 className="">rokibul.islam4151@gmail.com</h6>
               </div>
               <div className="d-flex align-items-center text-white">
                 <FontAwesomeIcon
