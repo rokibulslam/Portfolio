@@ -32,7 +32,7 @@ const Intro = () => {
             </h4>
             <div className="pb-3">
               <a
-                href="https://drive.google.com/uc?export=download&id=19mAo0Bh-C1-cRbpb3R_UxUNpFndcqrul"
+                href="https://drive.google.com/uc?export=download&id=1uQh1v9YSibwgf37IWyKMo43hSz8IDhmP"
                 download
               >
                 <Button className="intro-button">Download Resume</Button>
