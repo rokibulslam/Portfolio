@@ -25,84 +25,84 @@ const MySkill = () => {
               data-aos="fade-up"
               className="tools-icon col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={html} alt="" />
+              <img height="60px" width="60px" src={html} alt="" />
               <p>HTML</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="80px" src={css} alt="" />
+              <img height="60px" width="60px" src={css} alt="" />
               <p>CSS</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={bootstrap} alt="" />
+              <img height="60px" width="60px" src={bootstrap} alt="" />
               <p>BootStrap</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={javascript} alt="" />
+              <img height="60px" width="60px" src={javascript} alt="" />
               <p>Javascript</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={react} alt="" />
+              <img height="60px" width="60px" src={react} alt="" />
               <p>React</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={node} alt="" />
+              <img height="60px" width="60px" src={node} alt="" />
               <p>NodeJs</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={express} alt="" />
+              <img height="60px" width="60px" src={express} alt="" />
               <p>Express js</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={mongo} alt="" />
+              <img height="60px" width="60px" src={mongo} alt="" />
               <p>Mogodb</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={firebase} alt="" />
+              <img height="60px" width="60px" src={firebase} alt="" />
               <p>Firebase</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={vs} alt="" />
+              <img height="60px" width="60px" src={vs} alt="" />
               <p>vs</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={github} alt="" />
+              <img height="60px" width="60px" src={github} alt="" />
               <p>Github</p>
             </div>
             <div
               data-aos="fade-up"
               className="tools-icon col-sm-6 col-md-2 d-flex flex-column justify-content-lg-center  align-items-center"
             >
-              <img height="70px" width="100px" src={mui} alt="" />
+              <img height="60px" width="60px" src={mui} alt="" />
               <p>Material UI</p>
             </div>
           </div>
