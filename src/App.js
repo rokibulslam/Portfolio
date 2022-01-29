@@ -10,6 +10,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
 import Blog from './Components/Pages/Blog/Blog';
+import Services from './Components/Pages/Home/Services/Services';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         ></Route>
         <Route path="/aboutMe" element={<AboutMe></AboutMe>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
+        <Route path="/services" element={<Services></Services>}></Route>
       </Routes>
     </Router>
   );

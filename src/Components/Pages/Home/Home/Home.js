@@ -6,12 +6,14 @@ import Intro from '../Intro/Intro';
 import MyProjects from '../MyProjects/MyProjects';
 import MySkill from '../MySkill/MySkill';
 import Navigation from '../Navigation/Navigation';
+import Services from '../Services/Services';
 
 const Home = () => {
     return (
       <div>
         <Intro></Intro>
         <MySkill></MySkill>
+        <Services></Services>
         <MyProjects></MyProjects>
         <ContactMe>f</ContactMe>
       </div>

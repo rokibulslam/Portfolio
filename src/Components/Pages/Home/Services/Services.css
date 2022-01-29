@@ -1,0 +1,8 @@
+.services-bg{
+    background-color: rgb(4, 18, 48);
+}
+.service-card{
+    box-shadow: rgb(209, 224, 247) 0px 5px 15px;
+    background-color: rgb(1, 6, 36);
+    padding: 30px;
+}
