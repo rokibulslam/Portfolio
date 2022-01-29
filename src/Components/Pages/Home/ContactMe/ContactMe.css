@@ -1,6 +1,6 @@
 .contact-btn{
-    background-color: #013030;
-    color: rgb(10, 245, 151);
+    background-color: black;
+    color: white;
     border: 0px;
     /* color: rgb(10, 245, 151); */
     font-size: 20px;
@@ -8,10 +8,10 @@
     border-radius: 10px;
 }
 .contact-bg{
-    background-color: #0c7772;
+    background-color: #003B38;
     color: rgb(10, 245, 151);
 }
 .contact-btn:hover{
-     background-color: wheat;
+     background-color: rgb(10, 245, 151);
     color: black;
 }

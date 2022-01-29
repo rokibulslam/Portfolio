@@ -14,8 +14,8 @@ const MyProjects = () => {
       .then((data) => setProjects(data));
   },[])
     return (
-      <div id="projects" className="px-5 pb-5 text-center project-bg">
-        <h1 className="py-5 text-center ">MY Projects</h1>
+      <div id="projects" className="px-5 pb-5 project-bg">
+        <h1 className="py-5 text-white text-center ">MY Projects</h1>
         <Row xs={1} md={3} className="g-5 pb-5">
           {projects?.map((pt) => (
             <Col

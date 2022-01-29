@@ -28,7 +28,12 @@
     
     box-shadow: rgb(83, 156, 138)0px 0px 5px 5px;
     background-color: #0C7772;
+    box-sizing: border-box;
+    border: 1px solid #0C7772;
     
 }
-      
+.skill-bg:hover{
+    border: 1px solid rgb(10, 245, 151);
+    
+}      
         

@@ -18,9 +18,9 @@ import vs from "../../../../images/Icon/vscodecolor.png";
 const MySkill = () => {
     return (
       <div className="skills-banner py-5 pt-0">
-        <h1 className="text-center pt-5 text-color">My Skills</h1>
         <div className="container p-3">
-          <div className="row g-5">
+          <h1 className=" pt-5 text-center text-white">SKILLS</h1>
+          <div className="row g-5 pt-5">
             <div
               data-aos="fade-up"
               className="tools-icon col-md-3 d-flex flex-column justify-content-lg-center  align-items-center"
